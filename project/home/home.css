@@ -1,0 +1,344 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #0f0; */
+}
+body{
+    background-color: #0f0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(/images/webdev.jpg);
+    background-size: cover;
+    
+}
+.header-head{
+    margin: auto;
+    height: 30px;
+    padding: 2% 1%;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 800;
+    color: #0a0;
+    cursor: pointer;
+}
+.logo span{
+    color: #fff;
+    font-size: 40px;
+}
+.header-head nav {
+    display: flex; 
+}
+.header-head nav p{
+    margin: 30px 20px;
+}
+.header-head nav p a{
+    color: #fff;
+    
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;   
+}
+.header-head nav p a::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #0a0;
+    margin: auto;
+    display: block;
+    transition: 0.3s;
+}
+.header-head nav p a:hover::after{
+    width: 100%;
+}
+.text-box{
+    margin-top: 130px;
+    text-align: center;
+}
+.text-box span {
+    color: #fff;
+    margin: 5px;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 50px;
+}
+.text-box h1{
+    font-size: 30px;
+    color: #0a0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.text-box h4{
+    font-size: 25px;
+    margin: 10px;
+    letter-spacing: 15px;
+    color: #0a0;
+}
+.text-box button{
+    background-color: #f09;
+    border: #f09 2px solid;
+    margin: 50px 10px;
+    padding: 8px 4px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #f49;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.text-box button:hover{
+    color: #fff;
+    background-color: #00f;
+    border: #00f 2px solid;
+    box-shadow: 2px 2px 5px #99f;
+}
+.service {
+    /* margin: auto; */
+    text-align: center;
+    padding-top: 50px;
+    /* background-attachment: fixed; */
+    width: 100%;
+    /* position: relative; */
+    min-height: 500px;
+    background-color: #0f0;
+    color: #fff;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+.service-main{
+    margin: auto;
+    width: 35%;
+    text-align: center;
+    min-height: 400px;
+    margin-top: 20px;
+    background-color: #090;
+    box-shadow: 1px 1px 20px #0a0;
+    color: #fff;
+
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+.service h2{
+    font-weight: 700;
+    font-size: 20px;
+    /* margin: auto; */
+    padding: 45px 0;
+    text-transform: uppercase;
+}
+.service h4{
+    margin: 10px;
+    color: #000;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    /* padding-bottom: 40px; */
+}
+.service-body{
+    display: flex;
+    justify-content: space-around;
+}
+.service-body img{
+    width: 300px;
+    /* height: 300px; */
+    margin-top: 70px;
+}
+.service-body h4{
+    background-color: #f0f;
+    padding: 10px;
+    border: #f0f 1px solid;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #fff;
+    margin: 10px auto;
+    font-weight: 600;
+}
+.service-body h4:hover{
+    color: #fff;
+    border: #00f 1px solid;
+    border-radius: 10px;
+    background-color: #00f;
+}
+.skills{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    width: 55%;
+    padding: 20px;
+
+
+}
+.skills h4{
+    background-color: #f0f;
+    padding: 10px 2px;
+    border: #f0f 1px solid;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #fff;
+    margin: 15px auto;
+    font-weight: 600;
+    width: 75px;
+}
+.skills p{ 
+    background-color: #0a0;
+    padding: 10px 2px;
+    border: #0a0 1px solid;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #fff;
+    margin: 15px auto;
+    font-weight: 600;
+    width: 75px;
+}
+.web-dev{
+   text-align: center;
+   padding-top: 50px;
+   width: 100%;
+   min-height: 500px;
+   background-color: #0f0;
+   color: #fff;
+}
+.service-1{
+    margin: auto;
+    width: 35%;
+    text-align: center;
+    min-height: 300px;
+    margin-top: 20px;
+    background-color: #090;
+    box-shadow: 1px 1px 20px #0a0;
+    color: #fff;
+}
+.service-1 h4{
+    color: #000;
+    padding: 10px;
+}
+.service-1 button {
+    width: 60px;
+    padding: 2%;
+    margin: 10px auto;
+    color: #fff;
+    background-color: #f0f;
+    border: #f0f 2px solid;
+}
+.subscribe{
+    width: 100%;
+    min-height: 300px;
+    background-color: #eee;
+    text-align: center;
+}
+.subscribe h4 {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 30px;
+}
+.subscribe form{
+    margin: 5px auto;
+    background-color: #f0f;
+    width: 50%;
+    padding: 2% 5%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* border: 1px solid #f0f;
+    border-radius: 155px; */
+}
+.subscribe input{
+    border: 1px solid #fff;
+    border-radius: 40px 0 0 40px;
+    width: 75%;
+}
+.subscribe button{
+    padding: 0.8%;
+    position: absolute;
+    /* margin-top: 5%; */
+    margin: 5px 550px;
+}
+.latest-posts{
+    width: 100%;
+    min-height: 150vh;
+    background-color: #eee;
+    text-align: center;
+}
+.latest-posts h2{
+     font-weight: 900;
+    font-size: 25px;
+    padding: 45px;
+    text-transform: uppercase;
+}
+.posts-container{
+    /* display: flex;
+    justify-content: space-between;
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+    padding-top: 50px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+    justify-content: center;
+    gap: 20px;
+}
+.post-box{
+    width: 230px;
+    padding: 20px;
+    text-align: center;
+}
+.post-box .head{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/service-pic-1.jpg); */
+    background-color: #000;
+    min-height: 150px;
+}
+.post-box .head h4{
+    padding-top: 65px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.post-box .body{
+    background-color: #fff;
+    min-height: 250px;
+
+}
+.post-box .body p{
+    color: #333;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.advice{
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(/images/webdev.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.advice h2{
+    padding-top: 10px;
+    font-size: 120px;
+    letter-spacing: 10px;
+    color: #fff;
+    display: inline;
+}
+.advice span:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.advice span{
+    color: #f00;
+    text-decoration: underline;
+}

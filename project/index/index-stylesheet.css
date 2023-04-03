@@ -1,0 +1,149 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.header {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, 0.9)), url(/index/imges/luke-peters-B6JINerWMz0-unsplash.jpg);
+    background-size: cover;
+    position: absolute;
+}
+.header .nav-box {
+    width: 80%;
+    position: relative;
+    justify-content: space-between;
+    display: flex; 
+    margin: auto;   
+    height: 80px;
+    background-color: #000;
+}
+.header .nav-box img {
+    width: 150px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+.header .nav-box p {
+    list-style: none;
+    display: inline-block;
+    margin: 35px 10px;
+    padding: 2px 5px;
+    position: relative;
+}
+.header .nav-box p a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+.header .nav-box p ::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: red;
+    margin: auto;
+    left: 0;
+    display: block;
+    bottom: 0;
+    transition: 0.5s;
+}
+.header .nav-box p :hover::after {
+    width: 100%;
+}
+.text-box {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.text-box h1 {
+    font-size: 80px;
+    margin: 20px;
+    color: #fff;
+}
+.text-box h3 {
+    color: #f00;
+    line-height: 75px;
+    text-transform: none;
+}.text-box p {
+    color: #f00;
+    line-height: 20px;
+    margin: 20px;
+}
+.text-box button {
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: #f00 solid;
+    background-color: #f00;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 550;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.text-box button:hover {
+    color: #f00;
+    background-color: #fff;
+    border: #fff solid;
+    
+}
+.test-text-box {
+    color: orangered;
+    font-size: 150px;
+    margin: 50px 140px;
+    line-height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.test-text-box button {
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    font-size: 15px;
+    margin: 250px 15px;
+    text-transform: uppercase;
+    border-radius: 60px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    border: #00f solid;
+    background-color: #00f;
+}
+.test-text-box button:hover {
+    background-color: orangered;
+    color: #fff;
+    border: orangered solid;
+}
+.content-1 {
+    background-color: lightcyan;
+    height: 400px;
+    position: relative;
+    top: 600px;
+}
+.content-1A {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.content-1A h2 {
+    font-size: 45px;
+    margin: 40px;
+    text-transform: uppercase;
+    margin-top: 10%;
+}
+.content-1A p {
+    animation-timing-function: ease-in-out;
+}
+.content-1B {
+    width: 80%;
+    min-height: 300px;
+    margin-top: 500px;
+    display: flex;
+    align-content: space-between;
+    position: absolute;
+    background-color: #f00;
+}

@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    min-height: 200px;
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    text-align: center;
+}
+.header-head{
+    margin: auto;
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.header-head img{
+    max-width: 100px;
+    cursor: pointer;      
+}
+.header-head nav {
+    display: flex;    
+}
+.header-head nav p a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.header-head nav p a::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #f0f;
+    margin: auto;
+    left: 0;
+    display: block;
+    bottom: 0;
+    transition: 0.5s;
+}
+.header-head nav p a:hover::after{
+    width: 100%;
+}
+.header-head button {
+    background-color: #f0f;
+    border-radius: 40px;
+    border: 1px solid #f0f;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 1%;
+    font-weight: 600;
+}
+.header-head button:hover{
+    background-color: #fff;
+    border: #fff 2px solid;
+    color: #000;
+}
+.about-container{
+    background-color: #f9f;
+    width: 100%;
+    min-height: 900px;
+}
+.about-container h1{
+    text-align: center;
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 5%;
+
+}
+.about-main{
+    position: relative;
+    background-color: #a1a;
+    width: 60%;
+    min-height: 650px;
+    margin: 40px auto;
+
+}
+.about-main img{
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    display: block;
+    padding-top: 25px;
+}
+.about-main-text{
+    margin-top: 6%;
+    text-align: center;
+    padding: 0.8% 15%;
+}
+.about-main-text h4{
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.about-main-text p{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.social {
+    margin: auto;
+    text-align: center;
+    background-size: cover;
+    background-color: #eee;
+    width: 100%;
+    min-height: 300px;
+}
+.social-con{
+    background-color: #999;
+    width: 80%;
+    margin: auto;
+    min-height: 300px;
+    
+}
+.social-con img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+.social-con p{
+    font-size: 11px;
+    margin: 5px auto;
+
+}
+.social-con span{
+    font-size: 30px;
+    font-weight: 100;
+    margin: 20px auto;
+}
+.social-btn{
+    font-size: 30px;
+    color: #000;
+    display: inline;
+}
+.fa {
+    color: #000;
+}
+
+
+
+/*Practice for tables*/
+.practice th, td{
+    border: 2px #00f solid;
+    border-collapse: collapse;
+    border-radius: 5px;
+
+}
